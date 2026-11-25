@@ -1,4 +1,4 @@
-# shruwd-io
+# Shruwd
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-shruwd-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://shruwd.io/
+Shruwd is an AI search visibility tool that measures how AI answers describe your brand, diagnoses why they are omitted, and provides actionable fixes. It tracks AI crawlers across Google AI Overviews, Gemini, ChatGPT, Perplexity, and reads your server logs to show which AI agents reach your pages. The platform offers free scanning, pricing plans, and an MCP server for integration with Claude, ChatGPT, and Grok. Founded by Devin D., Shruwd helps B2B SaaS, dev tools, and agencies improve AI-driven discovery and customer acquisition.
+
+**Areas:** AI · SearchVisibility · Marketing · Analytics · B2B
+
+## Shruwd on APIs.io
+
+Everything profiled for Shruwd is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shruwd-io/](https://apis.io/providers/shruwd-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Shruwd Brands API](https://apis.io/apis/shruwd-io/shruwd-io-brands-api/) — A brand is the thing measured — a name, a domain, and its competitors.
+- [Shruwd Connections API](https://apis.io/apis/shruwd-io/shruwd-io-connections-api/) — First-party data sources.
+- [Shruwd Discovery API](https://apis.io/apis/shruwd-io/shruwd-io-discovery-api/) — This document.
+- [Shruwd Entities API](https://apis.io/apis/shruwd-io/shruwd-io-entities-api/) — The brand itself and its competitors, with the exact aliases that count as a mention.
+- [Shruwd Findings API](https://apis.io/apis/shruwd-io/shruwd-io-findings-api/) — Diagnoses with a specific recommended fix, and the recheck that proves movement.
+- [Shruwd Measurement API](https://apis.io/apis/shruwd-io/shruwd-io-measurement-api/) — Cycles, visibility metrics, crawler activity.
+- [Shruwd Prompts API](https://apis.io/apis/shruwd-io/shruwd-io-prompts-api/) — The fixed questions asked of each engine every cycle.
+- [Shruwd Workspace API](https://apis.io/apis/shruwd-io/shruwd-io-workspace-api/) — Plan, entitlements, usage.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Shruwd Agentic Access](https://apis.io/agentic-access/shruwd-io/shruwd-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Crawlers](https://apis.io/schemas/shruwd-io/shruwd-io-crawlers/)
+- [IngestToken](https://apis.io/schemas/shruwd-io/shruwd-io-ingest-token/)
+- [VisibilityAcrossEngines](https://apis.io/schemas/shruwd-io/shruwd-io-visibility-across-engines/)
+- [VisibilitySeries](https://apis.io/schemas/shruwd-io/shruwd-io-visibility-series/)
+- [VisibilitySeriesAcrossEngines](https://apis.io/schemas/shruwd-io/shruwd-io-visibility-series-across-engines/)
+- [Workspace](https://apis.io/schemas/shruwd-io/shruwd-io-workspace/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Shruwd Io Context](https://apis.io/jsonld/shruwd-io/shruwd-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Shruwd API Rules](https://apis.io/rules/shruwd-io/shruwd-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shruwd Authentication](https://apis.io/security/shruwd-io/shruwd-io-authentication/)
+- [Shruwd Domain Security](https://apis.io/security/shruwd-io/shruwd-io-domain-security/)
+- [Shruwd Vulnerability Disclosure](https://apis.io/security/shruwd-io/shruwd-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Shruwd Plans Pricing](https://apis.io/plans/shruwd-io/shruwd-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://shruwd.io/)
+- [Documentation](https://shruwd.io/docs/getting-started/overview)
+- [Pricing](https://shruwd.io/pricing)
+- [Sign up](https://shruwd.io/sign-up)
+- [Blog](https://shruwd.io/blog)
+- [Terms of service](https://shruwd.io/terms)
+- [Privacy policy](https://shruwd.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.6** — strong · rubric 0.27.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 73.2 |
+
+**Agent readiness 51.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shruwd-io/](https://apis.io/providers/shruwd-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Shruwd: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shruwd-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
